@@ -1,0 +1,75 @@
+// Module determines the present board
+// state of the flappy bird game,
+// both to be displayed via the LED array
+// as well as checked by a collision checker.
+// Inputs: CLK, RST, pos (postion of flappy bird),
+// pipe (new randomly generated pipe).
+// Outputs: RedPixels (full 256 bit array of red pixels), GrnPixels (full 256 array of green pixels).
+
+module board_state(PRedPixels, PGrnPixels, pos, pipe, CLK, RST);
+
+			input logic CLK, RST;
+			input logic [3:0] pos;
+			input logic [15:0] pipe;
+			
+			output logic [16:0][16:0] RedPixels, GrnPixels;
+		
+			logic [16:0][16:0] pRPs, nRPs, pGPs, nGPs; 
+			assign RedPixels = 0;
+			GrnPixels = 0;
+			
+			// converts pos into 15 bit value.
+			
+			integer i;
+			integer j;
+			
+			integer counter;
+			assign RedPixels = pRPs;
+			assign GrnPixels = pRPs;
+			
+			always_ff @(posedge CLK) begin
+					
+					// This block initializes a single red pixel as lit to whatever the flappy
+					// birds vertical position is. In addition, it lights a green pixel in the
+					// same spot.
+					if (RST) begin
+							counter = 0;
+							pGPs = 0;
+							pRPs = 0;
+					end
+					else
+					
+					// This block initializes a single red pixel as lit to whatever the flappy
+					// birds vertical position is. In addition, it lights a green pixel in the
+					// same spot.
+						for (i = 0; i < 16; i++) begin
+								for (j = 0; j < 15; j++) begin
+										if (i == pos && j == 7) begin
+											nRPs[i][j] = 1'b1;
+											nGPs[i][j] = 1'b1;
+										end
+										else nRPs = 1'b0;
+								end
+						end
+					
+						// This block loads new pipe geometries into the 16th column of the green
+						// every four clock cycles, and shifts 
+						for (i = 0; i < 16; i++) begin
+								for (j = 0; j < 16; j++) begin
+									if (j == 15 && counter % 4 == 0) NGrnPixels[i][j] = pipe[i];
+									else nGPs[i][j] <= PGPs[i][j + 1];
+								end
+						end
+						
+						pRPs <= nRPs;
+						counter = counter + 1;
+		end
+endmodule
+
+		
+		
+		
+		
+		
+		
+		

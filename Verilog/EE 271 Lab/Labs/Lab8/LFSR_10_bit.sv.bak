@@ -1,0 +1,9 @@
+module LFSR_10_bit(q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, clk, out);
+
+		input logic q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, clk;
+		output logic [9:0] out;
+		
+		logic q1star, q2star, q3star, q4star, q5star, q6star, q7star, q8star, q9star, q10star;
+		
+		
+		

@@ -1,0 +1,31 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:49:30 on May 05,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	DE1_SoC_testbench
+# 	seg7_testbench
+# End time: 17:49:30 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work upc_testbench 
+# Start time: 17:49:32 on May 05,2022
+# Loading sv_std.std
+# Loading work.upc_testbench
+# Loading work.upc_reader
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ewanl  Hostname: EE-361PC10  ProcessID: 1476
+#           Attempting to use alternate WLF file "./wlftcrsnya".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcrsnya
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 17:49:58 on May 05,2022, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 2

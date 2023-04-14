@@ -1,0 +1,57 @@
+// Creates a basic D flip flop to regulate keystrokes from player 1 and prevent noise
+// from interfering.
+module dff_1(q, d, clk);
+			input logic 	d, clk;
+			output logic	q; 
+			
+			always @(posedge clk)
+				begin
+				q <= d;
+				end
+endmodule
+
+module dff_1_testbench();
+
+
+			logic  clk;
+			logic 	q;
+			logic  	d;
+			
+			dff_1 dut (q, d, clk);
+			// Set up a simulated clock to toggle (from low to high or high to low)
+			// every 50 time steps
+			parameter CLOCK_PERIOD=100;
+			initial begin
+						clk <= 0;
+						forever #(CLOCK_PERIOD/2) clk <= ~clk;//toggle the clock indefinitely
+			end 
+   
+			// Set up the inputs to the design.  Each line represents a clock cycle 
+			// simulation tests all possible states of D flip flop
+			initial begin
+																@(posedge clk);
+										d = 0;				@(negedge clk);
+																@(posedge clk); // q should switch to 0 at this stage
+										d = 1;				@(negedge clk);
+																@(posedge clk);// q should switch to 1
+																@(negedge clk);// q should hold 1 value
+																@(posedge clk);// 		.
+																@(negedge clk);// 		.
+																@(posedge clk);//			.
+										d = 0;				@(negedge clk);//			.
+																@(posedge clk);// q should switch to 0
+																@(negedge clk);
+																@(posedge clk);
+																@(negedge clk);
+																@(posedge clk);
+										d = 1;				@(negedge clk);
+																@(posedge clk);
+																@(negedge clk);
+																@(posedge clk);
+																@(negedge clk);
+																@(posedge clk);
+																@(negedge clk);
+																@(posedge clk);
+			$stop; // End the simulation.
+			end
+endmodule

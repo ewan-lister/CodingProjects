@@ -1,0 +1,80 @@
+// This module determines how victory between
+// players is established and displayed on the
+// board.
+// This module determines the behavior of non middle leds
+// which are initialized as off after a reset cycle.
+module victory(lrled, move, out, reset, clk);
+
+		input logic [1:0] lrled, move; 
+		input logic reset, clk;
+		
+		output logic [6:0] out;
+		
+		logic [3:0] movecode;
+		assign movecode = {move, lrled};
+		
+		enum logic [6:0] {vp1 = 7'b1111100, vp2 = 7'b0100100, init = 7'b1111111} ps, ns;
+		
+				always_comb begin
+					case (ps)
+								init: if (movecode == 4'b1001) ns = vp2;
+										else if (movecode == 4'b0110) ns = vp1;
+										else ns = init;
+										else ns = unlit;
+					endcase
+				end
+		
+		// Output logic - could also be implemented as another always_comb block
+		// Output is set to bit value of present state.
+		assign out = ps;
+		// D Flip Flop implementation (DFFs)
+		always_ff @(posedge clk) begin
+					if (reset)
+								ps <= init; //Returns to b101 state when reset is active
+					else
+								ps <= ns; //Otherwise, advances to next state in state diagram
+		end
+endmodule
+
+
+module lvictory_testbench();
+
+		logic [1:0] lrled, move; 
+		logic out, reset, clk;
+		
+		victory dut (lrled, move, out, reset, clk);
+		
+		parameter CLOCK_PERIOD=100;
+			initial begin
+						clk <= 0;
+						forever #(CLOCK_PERIOD/2) clk <= ~clk;//toggle the clock indefinitely
+			end 
+			
+		
+			initial begin
+																@(posedge clk);
+			reset <= 1; move = 0; lrled = 2'b00;   @(posedge clk); // Always reset FSMs at start
+						 reset <= 0; 				   	@(posedge clk); //ps = unlit
+																@(posedge clk);
+																@(posedge clk);
+						move = 2'b01; lrled = 2'b10;	@(posedge clk);
+																@(posedge clk); // ps = lit
+																@(posedge clk);
+						move = 2'b01; lrled = 2'b10;	@(posedge clk);
+																@(posedge clk); // ps = lit
+																@(posedge clk);
+																@(posedge clk);// ps = lit
+						move = 1; lrled = 0;		      @(posedge clk);
+																@(posedge clk);// ps = unlit
+						move = 0; lrled = 0;				@(posedge clk);
+																@(posedge clk);//ps = unlit
+						move = 0; lrled = 1;				@(posedge clk);
+																@(posedge clk);// ps = unlit
+						move = 2; lrled = 2;				@(posedge clk);
+																@(posedge clk);//ps = unlit
+																@(posedge clk);
+																@(posedge clk);
+																@(posedge clk);
+			$stop; // End the simulation.
+	end
+endmodule

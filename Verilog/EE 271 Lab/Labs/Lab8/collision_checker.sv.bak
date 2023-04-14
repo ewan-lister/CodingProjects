@@ -1,0 +1,3 @@
+module collision_checker(result, pos, GrnPixels, CLK, RST)
+
+		input logic CLK, RST;

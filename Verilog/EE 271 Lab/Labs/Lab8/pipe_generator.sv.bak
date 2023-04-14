@@ -1,0 +1,40 @@
+// This module randomly generates
+// pipes of a random height and opening size.
+// Height never goes above the highest and lowest two pixels
+// of the board. Opening size is never below 2 or above 5.
+// Inputs: CLK, RST, 10 bit random number.
+// Outputs: a 16 bit array representing the geometry of a pipe pair
+// and opening.
+
+module pipe_generator(pipe, number, CLK, RST);
+
+		input logic CLK, RST;
+		input logic [9:0] number;
+		output logic [15:0] layout, pipe;
+		
+		
+		logic [4:0] zero_array; // array for setting pipe values to open space.
+		logic [15:0] one_array; // array for setting pipe values to pipe material.
+		
+		zero_array = 4'b00000;
+		one_array = 16'b1111111111111111;
+		
+		integer opening;
+		integer height;
+		
+		always_ff @(posedge CLK) begin
+					opening = random % 4;
+					height = random % 11;
+					
+					if (opening < 2) opening = 2;
+					
+					layout = one_array;
+					
+					layout[2 + height + opening: 2 + height] <= zero_array[opening:0]
+					if (RST)
+								layout <= 16'b11111100111111;
+					else
+								pipe <= layout; 
+		end
+		
+endmodule

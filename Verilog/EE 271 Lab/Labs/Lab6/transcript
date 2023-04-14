@@ -1,0 +1,498 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:11 on May 20,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 09:39:12 on May 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:12 on May 20,2022
+# vlog -reportprogress 300 ./d_ff.sv 
+# -- Compiling module d_ff
+# -- Compiling module d_ff_testbench
+# 
+# Top level modules:
+# 	d_ff_testbench
+# End time: 09:39:12 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:12 on May 20,2022
+# vlog -reportprogress 300 ./press_processor.sv 
+# -- Compiling module press_processor
+# -- Compiling module press_processor_testbench
+# 
+# Top level modules:
+# 	press_processor_testbench
+# End time: 09:39:12 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:12 on May 20,2022
+# vlog -reportprogress 300 ./led_normal.sv 
+# -- Compiling module led_normal
+# -- Compiling module led_normal_testbench
+# 
+# Top level modules:
+# 	led_normal_testbench
+# End time: 09:39:12 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:12 on May 20,2022
+# vlog -reportprogress 300 ./led_5.sv 
+# ** Error: (vlog-7) Failed to open design unit file "./led_5.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 09:39:12 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./led_5.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:50 on May 20,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 09:39:50 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:50 on May 20,2022
+# vlog -reportprogress 300 ./d_ff.sv 
+# -- Compiling module d_ff
+# -- Compiling module d_ff_testbench
+# 
+# Top level modules:
+# 	d_ff_testbench
+# End time: 09:39:50 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:51 on May 20,2022
+# vlog -reportprogress 300 ./press_processor.sv 
+# -- Compiling module press_processor
+# -- Compiling module press_processor_testbench
+# 
+# Top level modules:
+# 	press_processor_testbench
+# End time: 09:39:51 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:51 on May 20,2022
+# vlog -reportprogress 300 ./led_normal.sv 
+# -- Compiling module led_normal
+# -- Compiling module led_normal_testbench
+# 
+# Top level modules:
+# 	led_normal_testbench
+# End time: 09:39:51 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:39:51 on May 20,2022
+# vlog -reportprogress 300 ./led_5.sv 
+# ** Error: (vlog-7) Failed to open design unit file "./led_5.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 09:39:51 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./led_5.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:41:33 on May 20,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 09:41:33 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:41:33 on May 20,2022
+# vlog -reportprogress 300 ./d_ff.sv 
+# -- Compiling module d_ff
+# -- Compiling module d_ff_testbench
+# 
+# Top level modules:
+# 	d_ff_testbench
+# End time: 09:41:33 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:41:33 on May 20,2022
+# vlog -reportprogress 300 ./press_processor.sv 
+# -- Compiling module press_processor
+# -- Compiling module press_processor_testbench
+# 
+# Top level modules:
+# 	press_processor_testbench
+# End time: 09:41:34 on May 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:41:34 on May 20,2022
+# vlog -reportprogress 300 ./led_normal.sv 
+# -- Compiling module led_normal
+# -- Compiling module led_normal_testbench
+# 
+# Top level modules:
+# 	led_normal_testbench
+# End time: 09:41:34 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:41:34 on May 20,2022
+# vlog -reportprogress 300 ./led_5.sv 
+# -- Compiling module led5
+# -- Compiling module led5_testbench
+# 
+# Top level modules:
+# 	led5_testbench
+# End time: 09:41:34 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:41:34 on May 20,2022
+# vlog -reportprogress 300 ./victory.sv 
+# -- Compiling module victory
+# -- Compiling module victory_testbench
+# 
+# Top level modules:
+# 	victory_testbench
+# End time: 09:41:34 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:41:34 on May 20,2022
+# vlog -reportprogress 300 clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 09:41:34 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 09:41:35 on May 20,2022
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.d_ff
+# Loading work.press_processor
+# Loading work.led_normal
+# Loading work.led5
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ewanl  Hostname: EE-365PC26  ProcessID: 12924
+#           Attempting to use alternate WLF file "./wlftq70kta".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftq70kta
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/i00'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/i01'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/i10'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/i11'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/sel0'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/sel1'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/out'.
+# Executing ONERROR command at macro ./wave.do line 9
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(117)
+#    Time: 2850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 117
+add wave -position end  sim:/DE1_SoC_testbench/CLOCK_50
+add wave -position end  sim:/DE1_SoC_testbench/HEX0
+add wave -position end  sim:/DE1_SoC_testbench/HEX1
+add wave -position end  sim:/DE1_SoC_testbench/LEDR
+add wave -position end  sim:/DE1_SoC_testbench/KEY
+add wave -position end  sim:/DE1_SoC_testbench/SW
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab6/StarterFiles1/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:43:02 on May 20,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 09:43:02 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:43:02 on May 20,2022
+# vlog -reportprogress 300 ./d_ff.sv 
+# -- Compiling module d_ff
+# -- Compiling module d_ff_testbench
+# 
+# Top level modules:
+# 	d_ff_testbench
+# End time: 09:43:03 on May 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:43:03 on May 20,2022
+# vlog -reportprogress 300 ./press_processor.sv 
+# -- Compiling module press_processor
+# -- Compiling module press_processor_testbench
+# 
+# Top level modules:
+# 	press_processor_testbench
+# End time: 09:43:03 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:43:03 on May 20,2022
+# vlog -reportprogress 300 ./led_normal.sv 
+# -- Compiling module led_normal
+# -- Compiling module led_normal_testbench
+# 
+# Top level modules:
+# 	led_normal_testbench
+# End time: 09:43:03 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:43:03 on May 20,2022
+# vlog -reportprogress 300 ./led_5.sv 
+# -- Compiling module led5
+# -- Compiling module led5_testbench
+# 
+# Top level modules:
+# 	led5_testbench
+# End time: 09:43:03 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:43:03 on May 20,2022
+# vlog -reportprogress 300 ./victory.sv 
+# -- Compiling module victory
+# -- Compiling module victory_testbench
+# 
+# Top level modules:
+# 	victory_testbench
+# End time: 09:43:03 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:43:03 on May 20,2022
+# vlog -reportprogress 300 clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 09:43:03 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:43:04 on May 20,2022, Elapsed time: 0:01:29
+# Errors: 21, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 09:43:04 on May 20,2022
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.d_ff
+# Loading work.press_processor
+# Loading work.led_normal
+# Loading work.led5
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ewanl  Hostname: EE-365PC26  ProcessID: 12924
+#           Attempting to use alternate WLF file "./wlft2qfx36".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2qfx36
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(117)
+#    Time: 2850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 117
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:45:06 on May 20,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 09:45:06 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:45:06 on May 20,2022
+# vlog -reportprogress 300 ./d_ff.sv 
+# -- Compiling module d_ff
+# -- Compiling module d_ff_testbench
+# 
+# Top level modules:
+# 	d_ff_testbench
+# End time: 09:45:06 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:45:06 on May 20,2022
+# vlog -reportprogress 300 ./press_processor.sv 
+# -- Compiling module press_processor
+# -- Compiling module press_processor_testbench
+# 
+# Top level modules:
+# 	press_processor_testbench
+# End time: 09:45:06 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:45:07 on May 20,2022
+# vlog -reportprogress 300 ./led_normal.sv 
+# -- Compiling module led_normal
+# -- Compiling module led_normal_testbench
+# 
+# Top level modules:
+# 	led_normal_testbench
+# End time: 09:45:07 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:45:07 on May 20,2022
+# vlog -reportprogress 300 ./led_5.sv 
+# -- Compiling module led5
+# -- Compiling module led5_testbench
+# 
+# Top level modules:
+# 	led5_testbench
+# End time: 09:45:07 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:45:07 on May 20,2022
+# vlog -reportprogress 300 ./victory.sv 
+# -- Compiling module victory
+# -- Compiling module victory_testbench
+# 
+# Top level modules:
+# 	victory_testbench
+# End time: 09:45:07 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:45:07 on May 20,2022
+# vlog -reportprogress 300 clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 09:45:07 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:45:08 on May 20,2022, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work press_processor_testbench 
+# Start time: 09:45:08 on May 20,2022
+# Loading sv_std.std
+# Loading work.press_processor_testbench
+# Loading work.press_processor
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ewanl  Hostname: EE-365PC26  ProcessID: 12924
+#           Attempting to use alternate WLF file "./wlft24hdad".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft24hdad
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./press_processor.sv(114)
+#    Time: 2250 ps  Iteration: 1  Instance: /press_processor_testbench
+# Break in Module press_processor_testbench at ./press_processor.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:46:12 on May 20,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 09:46:12 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:46:12 on May 20,2022
+# vlog -reportprogress 300 ./d_ff.sv 
+# -- Compiling module d_ff
+# -- Compiling module d_ff_testbench
+# 
+# Top level modules:
+# 	d_ff_testbench
+# End time: 09:46:12 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:46:12 on May 20,2022
+# vlog -reportprogress 300 ./press_processor.sv 
+# -- Compiling module press_processor
+# -- Compiling module press_processor_testbench
+# 
+# Top level modules:
+# 	press_processor_testbench
+# End time: 09:46:12 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:46:12 on May 20,2022
+# vlog -reportprogress 300 ./led_normal.sv 
+# -- Compiling module led_normal
+# -- Compiling module led_normal_testbench
+# 
+# Top level modules:
+# 	led_normal_testbench
+# End time: 09:46:13 on May 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:46:13 on May 20,2022
+# vlog -reportprogress 300 ./led_5.sv 
+# -- Compiling module led5
+# -- Compiling module led5_testbench
+# 
+# Top level modules:
+# 	led5_testbench
+# End time: 09:46:13 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:46:13 on May 20,2022
+# vlog -reportprogress 300 ./victory.sv 
+# -- Compiling module victory
+# -- Compiling module victory_testbench
+# 
+# Top level modules:
+# 	victory_testbench
+# End time: 09:46:13 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:46:13 on May 20,2022
+# vlog -reportprogress 300 clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 09:46:13 on May 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:46:14 on May 20,2022, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work led5_testbench 
+# Start time: 09:46:14 on May 20,2022
+# Loading sv_std.std
+# Loading work.led5_testbench
+# Loading work.led5
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ewanl  Hostname: EE-365PC26  ProcessID: 12924
+#           Attempting to use alternate WLF file "./wlftms6s1s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftms6s1s
+# ** Error: (vish-4014) No objects found matching '/led5_testbench/lrled'.
+# Executing ONERROR command at macro ./led5_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./led_5.sv(77)
+#    Time: 2250 ps  Iteration: 1  Instance: /led5_testbench
+# Break in Module led5_testbench at ./led_5.sv line 77
+# End time: 09:47:43 on May 20,2022, Elapsed time: 0:01:29
+# Errors: 3, Warnings: 2

@@ -1,0 +1,77 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:27:50 on Apr 22,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	DE1_SoC_testbench
+# End time: 11:27:50 on Apr 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work upc_testbench 
+# Start time: 11:27:50 on Apr 22,2022
+# Loading sv_std.std
+# Loading work.upc_testbench
+# Loading work.upc_reader
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ewanl  Hostname: EE-361PC10  ProcessID: 1476
+#           Attempting to use alternate WLF file "./wlftdgwxc3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdgwxc3
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/i00'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/i01'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/i10'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/i11'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/sel0'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/sel1'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/mux4_1_testbench/out'.
+# Executing ONERROR command at macro ./wave.do line 9
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position end  sim:/upc_testbench/u
+add wave -position end  sim:/upc_testbench/p
+add wave -position end  sim:/upc_testbench/c
+add wave -position end  sim:/upc_testbench/m
+add wave -position end  sim:/upc_testbench/discounted
+add wave -position end  sim:/upc_testbench/stolen
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab3/StarterFiles/DE1_SoC.do}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab3/StarterFiles/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:32 on Apr 22,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	DE1_SoC_testbench
+# End time: 11:29:32 on Apr 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:29:33 on Apr 22,2022, Elapsed time: 0:01:43
+# Errors: 21, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work upc_testbench 
+# Start time: 11:29:33 on Apr 22,2022
+# Loading sv_std.std
+# Loading work.upc_testbench
+# Loading work.upc_reader
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ewanl  Hostname: EE-361PC10  ProcessID: 1476
+#           Attempting to use alternate WLF file "./wlftgyvh9s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgyvh9s
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree

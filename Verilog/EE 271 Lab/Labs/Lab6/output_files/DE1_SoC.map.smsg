@@ -1,0 +1,4 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10268): Verilog HDL information at d_ff.sv(8): always construct contains both blocking and non-blocking assignments File: C:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab6/StarterFiles1/d_ff.sv Line: 8
+Warning (10034): Output port "LEDR[0]" at DE1_SoC.sv(7) has no driver File: C:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab6/StarterFiles1/DE1_SoC.sv Line: 7
+Warning (284006): Flipped 7 bits in user-encoded state machine |DE1_SoC|victory:test2|ps

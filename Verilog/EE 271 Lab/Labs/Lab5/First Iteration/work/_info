@@ -1,0 +1,243 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ewanl/Desktop/EE 271 Lab/Labs/StarterFiles
+vDE1_SoC
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1651250267
+!i10b 1
+!s100 z7Tm>R5;IVhk0?Q73S?0@2
+ImIIWboPJ>UXN^5J<C_SVh2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 DE1_SoC_sv_unit
+S1
+Z4 dC:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab4/StarterFiles
+Z5 w1651247649
+Z6 8./DE1_SoC.sv
+Z7 F./DE1_SoC.sv
+L0 2
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1651250267.000000
+Z10 !s107 ./DE1_SoC.sv|
+Z11 !s90 -reportprogress|300|./DE1_SoC.sv|
+!i113 1
+Z12 tCvgOpt 0
+n@d@e1_@so@c
+vDE1_SoC_hex_testbench
+R0
+!s110 1651213003
+!i10b 1
+!s100 P>kOn[flC7L8QhTOeZSZi3
+IAE@^Dn]CS2ILU40Z1?jjO1
+R2
+R3
+S1
+R4
+w1651212676
+R6
+R7
+L0 51
+R8
+r1
+!s85 0
+31
+!s108 1651213003.000000
+R10
+R11
+!i113 1
+R12
+n@d@e1_@so@c_hex_testbench
+vDE1_SoC_testbench
+R0
+R1
+!i10b 1
+!s100 jj=ThM_oX]E`_YoSMi1ka3
+IPfom^F_EaURN28U5oR_bZ3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+Z13 L0 33
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@d@e1_@so@c_testbench
+vmux2_1
+R0
+Z14 !s110 1650040221
+!i10b 1
+!s100 D8f^KdU48cL4Rb1`ZGVGU1
+I=Tj5VT>:3DVMWDcLmbI072
+R2
+Z15 !s105 mux2_1_sv_unit
+S1
+Z16 dC:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab2/StarterFiles
+Z17 w1649395445
+Z18 8./mux2_1.sv
+Z19 F./mux2_1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z20 !s108 1650040221.000000
+Z21 !s107 ./mux2_1.sv|
+Z22 !s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+R12
+vmux2_1_testbench
+R0
+R14
+!i10b 1
+!s100 I?g=8^<XjP<F15k>kH8T:2
+If>6g9dTH4YJzf_li:T_2Q1
+R2
+R15
+S1
+R16
+R17
+R18
+R19
+L0 6
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R12
+vmux4_1
+R0
+R14
+!i10b 1
+!s100 I0ZdTo8ULUMk[52n4?aEV1
+IAJ6k;63E5e_AjJezDNJHL1
+R2
+Z23 !s105 mux4_1_sv_unit
+S1
+R16
+Z24 w1650036169
+Z25 8./mux4_1.sv
+Z26 F./mux4_1.sv
+L0 6
+R8
+r1
+!s85 0
+31
+R20
+Z27 !s107 ./mux4_1.sv|
+Z28 !s90 -reportprogress|300|./mux4_1.sv|
+!i113 1
+R12
+vmux4_1_testbench
+R0
+R14
+!i10b 1
+!s100 A`jBF<e<YMR42WI3KbDng2
+IXNTd1b4fog07[mJh@Wc851
+R2
+R23
+S1
+R16
+R24
+R25
+R26
+Z29 L0 20
+R8
+r1
+!s85 0
+31
+R20
+R27
+R28
+!i113 1
+R12
+vsimple_testbench
+R0
+!s110 1651797589
+!i10b 1
+!s100 L`ZWLL`J=_UQkA]G;XWV>3
+Ia58QhB@TfDa0_HYX=>VT_0
+R2
+!s105 simple_sv_unit
+S1
+dC:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab5/StarterFiles
+w1651797276
+8./simple.sv
+F./simple.sv
+R13
+R8
+r1
+!s85 0
+31
+!s108 1651797589.000000
+!s107 ./simple.sv|
+!s90 -reportprogress|300|./simple.sv|
+!i113 1
+R12
+vupc_reader
+R0
+Z30 !s110 1650650451
+!i10b 1
+!s100 6ngf`8F2WUNCXNFFzeK2K3
+Ig6Xgld_6ZGTN7747BUEz;0
+R2
+Z31 !s105 UPC_Reader_sv_unit
+S1
+Z32 dC:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab3/StarterFiles
+Z33 w1650650433
+Z34 8./UPC_Reader.sv
+Z35 F./UPC_Reader.sv
+L0 2
+R8
+r1
+!s85 0
+31
+Z36 !s108 1650650451.000000
+Z37 !s107 ./UPC_Reader.sv|
+Z38 !s90 -reportprogress|300|./UPC_Reader.sv|
+!i113 1
+R12
+vupc_testbench
+R0
+R30
+!i10b 1
+!s100 i]V7?VKBHEm6AD^E9350M3
+I]W<^FOPWamVTZE2dO^l`G3
+R2
+R31
+S1
+R32
+R33
+R34
+R35
+R29
+R8
+r1
+!s85 0
+31
+R36
+R37
+R38
+!i113 1
+R12

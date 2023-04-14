@@ -1,0 +1,31 @@
+// UPC Reader.
+module upc_reader(u, p, c, m, discounted, stolen)
+	output logic discounted, stolen;
+	input logic u, p, c, m;
+	logic andvald, orvalS, notM, notC;
+	
+	and TheAndGate0 (andvald, u, c);
+	or TheOrGate0 (discounted, andvald, p);
+	
+	not TheNotGate0 (notM, m);
+	not TheNotGate1 (notC, c);
+	
+	or TheOrGate1 (orvals, u, notC);
+	and TheAndGate1 (stolen, notM, orvalS)
+	
+endmodule
+	
+	
+module upc_testbench();
+	logic u, p, c, m;
+	logic discounted, stolen;
+	
+	upc_reader dut (.u, .p, .c, .m, .discounted, .stolen);
+	
+	integer i;
+	initial begin
+		for (i=0; i<16; i++) begin
+			{u, p, c, m} = i; #10;
+		end
+	end
+endmodule

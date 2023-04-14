@@ -1,0 +1,6 @@
+
+State Machine - |DE1_SoC|victory:test2|ps
+Name ps~4 ps~3 ps~2 
+ps.init 0 0 0 
+ps.vp1 1 1 0 
+ps.vp2 0 1 1 

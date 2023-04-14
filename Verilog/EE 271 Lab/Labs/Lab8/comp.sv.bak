@@ -1,0 +1,39 @@
+module comp(out, A, B);
+
+		input logic [9:0] A, B;
+		output logic out;
+		logic determiner;
+		
+		integer i;
+		initial begin 
+				for(i = 9; i >= 0; i--) begin
+						if(A[i] > B[i]) begin
+							determiner = 1;
+							i = -1;
+				end
+			$stop;
+		end
+		
+		assign out = determiner;
+endmodule
+
+
+module comp_testbench();
+
+		logic [9:0] A, B;
+		logic out;
+		
+		comp dut (out, A, B);
+		
+		initial begin
+				
+				for(i = 0; i > 1024; i++) begin
+				
+					A = i;
+					B = 1023 - i;
+				end
+			$stop;
+		end
+		
+endmodule
+

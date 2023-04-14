@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ewanl/Desktop/EE 271 Lab/Labs/StarterFiles
+vmux2_1
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1649436049
+!i10b 1
+!s100 D8f^KdU48cL4Rb1`ZGVGU1
+I=Tj5VT>:3DVMWDcLmbI072
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 mux2_1_sv_unit
+S1
+Z4 dC:/Users/ewanl/OneDrive - UW/EE 271 Lab/Labs/Lab 1/StarterFiles
+Z5 w1649395445
+Z6 8./mux2_1.sv
+Z7 F./mux2_1.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1649436048.000000
+Z10 !s107 ./mux2_1.sv|
+Z11 !s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+Z12 tCvgOpt 0
+vmux2_1_testbench
+R0
+R1
+!i10b 1
+!s100 I?g=8^<XjP<F15k>kH8T:2
+If>6g9dTH4YJzf_li:T_2Q1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12

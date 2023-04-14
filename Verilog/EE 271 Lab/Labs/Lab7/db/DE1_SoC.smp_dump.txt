@@ -1,0 +1,28 @@
+
+State Machine - |DE1_SoC|winner:w2|ps
+Name ps~8 ps~7 ps~6 ps~5 ps~4 ps~3 ps~2 
+ps.count0 0 0 0 0 0 0 0 
+ps.count5 1 0 1 0 0 1 0 
+ps.count4 1 0 1 1 0 0 1 
+ps.count2 1 1 0 0 1 0 0 
+ps.count3 1 1 1 0 0 0 0 
+ps.count6 1 0 0 0 0 1 0 
+ps.count7 0 1 1 1 0 0 0 
+ps.count1 0 1 1 1 0 0 1 
+
+State Machine - |DE1_SoC|winner:w1|ps
+Name ps~8 ps~7 ps~6 ps~5 ps~4 ps~3 ps~2 
+ps.count0 0 0 0 0 0 0 0 
+ps.count5 1 0 1 0 0 1 0 
+ps.count4 1 0 1 1 0 0 1 
+ps.count2 1 1 0 0 1 0 0 
+ps.count3 1 1 1 0 0 0 0 
+ps.count6 1 0 0 0 0 1 0 
+ps.count7 0 1 1 1 0 0 0 
+ps.count1 0 1 1 1 0 0 1 
+
+State Machine - |DE1_SoC|victory:test2|ps
+Name ps~4 ps~3 ps~2 
+ps.init 0 0 0 
+ps.vp1 1 1 0 
+ps.vp2 0 1 1 
