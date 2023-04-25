@@ -1,4 +1,12 @@
-# CodingProjects
+# Welcome.
+
+## Contacts:
+
+Linkedin: [ewan-lister](https://www.linkedin.com/in/ewan-lister/)
+
+Email: ewanl@uw.edu
+
+Phone: 360-317-6122
 
 02/31/2023
 
