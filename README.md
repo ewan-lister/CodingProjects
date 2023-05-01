@@ -11,7 +11,9 @@ Email: ewanl@uw.edu
 Phone: 360-317-6122
 
 
-## Projects:
+### Projects:
+
+## Data Visualization and Analysis 
 
 **Microsoft Power BI**:
 
@@ -28,3 +30,18 @@ These links display dashboards created to interpret wine sales data in Australia
 [Strong Strikers Under the Age of 22](https://public.tableau.com/views/StrongStrikersUndertheAgeof22_16681360817130/PlayerDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 Contained in this repository are coding projects I completed while studying at the University of Washington, either independently or for class.
+
+## Machine Learning
+
+My current machine learning projects are composed in the README.md - report format, such that others can reproduce the results, draw inspiration, and learn from the techniques I explore. Credit is due to J. Nathan Kutz for his excellent instruction in Machine Learning, as well as guiding these reports.
+
+[Linear Regression on Sample Data](./Machine\ Learning/Linear\ Regression\ on\ Sample\ Data)
+
+[Conducting Principal Component Analysis on Facial Data](./Machine\ Learning/Conducting\ Principal\ Component\ Analysis\ on\ Facial\ Data)
+
+[Using Classifiers to Analyze MNIST Digit Data](./Machine\ Learning/Using\ Classifiers\ to\ Analyze\ MNIST\ Digit\ Data)
+
+
+
+
+
