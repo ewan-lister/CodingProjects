@@ -35,11 +35,11 @@ Contained in this repository are coding projects I completed while studying at t
 
 My current machine learning projects are composed in the README.md - report format, such that others can reproduce the results, draw inspiration, and learn from the techniques I explore. Credit is due to J. Nathan Kutz for his excellent instruction in Machine Learning, as well as guiding these reports.
 
-[Linear Regression on Sample Data](./Machine\ Learning/Linear\ Regression\ on\ Sample\ Data)
+[Linear Regression on Sample Data](./Machine\ Learning/Linear\ Regression\ on\ Sample\ Data/README.md)
 
-[Conducting Principal Component Analysis on Facial Data](./Machine\ Learning/Conducting\ Principal\ Component\ Analysis\ on\ Facial\ Data)
+[Conducting Principal Component Analysis on Facial Data](./Machine\ Learning/Conducting\ Principal\ Component\ Analysis\ on\ Facial\ Data/README.md)
 
-[Using Classifiers to Analyze MNIST Digit Data](./Machine\ Learning/Using\ Classifiers\ to\ Analyze\ MNIST\ Digit\ Data)
+[Using Classifiers to Analyze MNIST Digit Data](./Machine\ Learning/Using\ Classifiers\ to\ Analyze\ MNIST\ Digit\ Data/README.md)
 
 
 
